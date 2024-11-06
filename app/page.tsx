@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <div className="">
-        <h1>hello world</h1>
+        <h1>Elmokhtar a Zamel</h1>
     </div>
   );
 }
