@@ -20,7 +20,7 @@ const Navbar = () => {
             <nav className='flex items-center justify-between cursor-pointer  w-[100vw] px-4 py-2 border-b-2 md:hidden'>
                 {isOpen ? <IoClose className='text-2xl' onClick={toggleMenu} /> : <TiThMenu className='text-2xl' onClick={toggleMenu} />}
                 <div>
-                    <Image alt="logo" src="/images/Logo.png" width={100} height={60} />
+                    <Image alt="logo" src="/images/Logo.png" width={100} height={60} className="ml-12" />
                 </div>
                 <div className='flex space-x-4 items-center'>
                     <FaSearch className=' text-2xl' />
